@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get("/server", function(req, res){
-    res.json({
+    res.send.json({
         message: "Server is up, welcome to microsoft azure"
     })
 });
