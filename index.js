@@ -9,6 +9,6 @@ app.get("/", function(req, res){
     })
 });
 
-app.listen(port, () =>{
-    console.log(`Server is running at http://131.163.96.82:3000`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`Server is listening on port ${port}`);
 });
