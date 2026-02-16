@@ -1,7 +1,7 @@
 const express = require("express");
 
 const app = express();
-const port = 80;
+const port = 3000;
 
 app.get("/server", function(req, res){
     res.json({
@@ -10,5 +10,5 @@ app.get("/server", function(req, res){
 });
 
 app.listen(port, () =>{
-    console.log("server is running at port 80")
+    console.log("server is running at port 3000")
 });
